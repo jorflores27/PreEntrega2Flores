@@ -1,0 +1,181 @@
+.img_fluid{width: 100%; height:auto}
+li{list-style-type: none; padding: 10px; margin: 20px;}
+a{text-decoration: none; color: white; font-size: 20px;}
+header{background-color: dodgerblue;}
+footer{background-color:dodgerblue;}
+.redes{display: flex; flex-direction: column; justify-content: center;}
+.contacto{display: flex; flex-direction: column; justify-content: center;}
+p{color: white;}
+.Titulo{font-size: 30px; color: white;}
+.Titulo{
+    display: flex;
+    justify-content: center;
+}
+main{background-color: dodgerblue;}
+h4{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+.mainPre{background-image: url(../img/teleferico2.jpg);}
+h3{color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+h5{display: flex;
+   justify-content: center;
+    font-size: 40px;
+     font-weight: 100;
+      color: rgb(203, 241, 17);
+    font-family: 'Times New Roman', Times, serif;}
+h6{display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+.MainCon{display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.MainCon{display: grid;
+      grid-template-columns: 100%;
+      justify-content: center;
+      }
+.form{display: flex;
+     flex-direction: column;
+    }
+.ContRedes{font-size: 20px; margin: 20px;}
+.ContUbi{font-size: 25px; margin: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;}
+.Cuadro{display: flex;
+    flex-direction: column;
+    align-items: center;}
+.ContTitulo{font-size: 25px; text-align: center; padding: 10px; margin: 10px;}
+.EmTitu{display: flex;
+     flex-direction: row;
+    justify-content: center;
+font-size: 30px; padding: 100px; color:yellow;}
+.MainEm{background-image: url(../img/recat\ tin\ tin1.jpg);}
+.EmDesc{margin: 20px;}
+.Descripcion{font-size: 20px; text-align: center;}
+.EmSubt{padding: 20px;}
+.Subtitulo{font-size: 25px; text-align:center; color: yellow;}
+.SubCon{font-size: 15px; text-align: center; margin: 10px;}
+.consultar{text-align: center; color: yellow;}
+.Desde{text-align: center; color: yellow;}
+.Nac{background-color:darkslategray;}
+a:hover{
+    color:yellow;
+    font-size: 30px;
+    background-color: darkslateblue;
+    border-radius: 40px;
+}
+input:focus{
+    height: 50px;
+}
+
+*{margin: 0;}
+/* DESKTOP */
+@media(min-width:1024px){
+ul{
+    display: flex;
+    flex-direction: row;
+}
+header{display: flex;
+      flex-direction: row;
+      justify-content:center;
+}
+.GridMainIndex{
+    display: grid;
+    grid-template-areas: 
+    "ImgPrin ImgPrin ImgPrin"
+    "Titulo Titulo Titulo"
+    "imgA imgB imgC"
+    "imgD imgE imgF";
+    grid-template-columns: 33% 34% 33%;
+    grid-template-rows: auto auto auto auto;
+}
+    .ImgPrin{grid-area: ImgPrin;}
+    .Titulo{grid-area: Titulo;}
+    .imgA{grid-area: imgA;}
+    .imgB{grid-area: imgB;}
+    .imgC{grid-area: imgC;}
+    .imgD{grid-area: imgD;}
+    .imgE{grid-area: imgE;}
+    .imgF{grid-area: imgF;}
+.imgA{padding: 20px;}
+.imgB{padding: 20px 0px;}
+.imgC{padding: 20px;}
+.imgD{padding: 20px;}
+.imgE{padding: 20px 0px;}
+.imgF{padding: 20px;}
+footer{display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;}
+.nav{display: flex;
+align-items: center;
+}
+.header{position: sticky; top: 0px;}
+h5{padding: 40px;}
+h6{padding: 20px;}
+
+.MainEm{
+    display: grid;
+    grid-template-areas:
+    "EmTitu EmTitu"
+    "EmDesc EmDesc"
+    "EmA EmC"
+    "EmB EmD"
+    "EmE EmG"
+    "EmF EmH";
+    grid-column: 50% 50%;
+    grid-template-rows: auto auto auto auto auto auto;
+}
+.EmTitu{grid-area: EmTitu;}
+.EmDesc{grid-area: EmDesc;}
+.EmA{grid-area: EmA;}
+.EmB{grid-area: EmB;}
+.EmC{grid-area: EmC;}
+.EmD{grid-area: EmD;}
+.EmE{grid-area: EmE;}
+.EmF{grid-area: EmF;}
+.EmG{grid-area: EmG;}
+.EmH{grid-area: EmH;}
+
+.MainDes{display: grid;
+    grid-template-areas:
+    "DestinoTitulo DestinoTitulo DestinoTitulo"
+    "DesA DesB DesC"
+    "DesD DesE DesF"
+    "TextFinal TextFinal TextFinal";
+    grid-template-columns: 33% 34% 33%;
+    grid-template-rows: auto auto auto;
+}
+.DestinoTitulo{grid-area: DestinoTitulo;}
+.DesA{grid-area: DesA; padding: 10px;}
+.DesB{grid-area: DesB; padding: 10px;}
+.DesC{grid-area: DesC; padding: 10px;}
+.DesD{grid-area: DesD; padding: 10px;}
+.DesE{grid-area: DesE; padding: 10px;}
+.DesF{grid-area: DesF; padding: 10px;}
+.TextFinal{grid-area: TextFinal;}
+.DestinoTitulo{font-size: 30px; text-align: center; color: white; padding: 100px;}
+.Cont{font-size: 30px; text-align: center; color: white; padding: 100px; background-image: url(../img/los\ cardones6.jpg);}
+
+}
+
+/* MOBILE */
+@media(max-width:768px){
+.logo{display: flex;
+flex-direction: column;
+justify-content: center;}
+h2{text-align: center;}
+.redes{text-align: center;}
+.contacto{text-align: center;}
+.Nac{text-align:center;}
+.TextFinal{text-align: center;}
+.DestinoTitulo{font-size: 30px; text-align: center; color: white;}
+.Cont{font-size: 30px; text-align: center; color: white; background-image: url(../img/los\ cardones6.jpg);}
+.mainPre{text-align: center;}
+.MainEm{background-image: url(../img/recat\ tin\ tin2.jpg);}
+}
